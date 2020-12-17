@@ -1,18 +1,18 @@
 // Artem Lamzov
-// Created: 
-// Finished: 
+// Created:
+// Finished:
 
 // Common styles
 
-@import "vars";
-@import "./vendor/normalize";
-@import "reset";
-@import "mixins";
+@import 'vars';
+@import './vendor/normalize';
+@import 'reset';
+@import 'mixins';
 
 // main blocks
 
-
+@import './blocks/header.scss';
 
 // other
 
-@import "./fonts";
+@import './fonts';

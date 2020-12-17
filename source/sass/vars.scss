@@ -8,13 +8,13 @@ $grad: linear-gradient(108.42deg, #ffc341 0%, #ffd701 96%);
 $white: #ffffff;
 $overlay: rgba(235, 235, 235, 0.95);
 $grey: #e3e3e3;
-$red: red;
+$red: rgb(241, 13, 13);
 $transparent: rgba(0, 0, 0, 0);
 
 //fonts
-$rale: "Raleway", "Arial", "sans-serif";
-$sans: "FiraSans", "Arial", "sans-serif";
-$mont: "Montserrat", "Arial", "sans-serif";
+$rale: 'Raleway', 'Arial', 'sans-serif';
+$sans: 'FiraSans', 'Arial', 'sans-serif';
+$mont: 'Montserrat', 'Arial', 'sans-serif';
 
 //viewports
 
@@ -30,9 +30,8 @@ $retina-dppx: 1.5dppx;
 
 // timers
 
-
 // Animation
 $t-anim: 0.3s;
 
-$default-transition-settings:       0.3s ease;
-$modal-transition-settings:         0.6s cubic-bezier(0.55, 0, 0.1, 1);
+$default-transition-settings: 0.3s ease;
+$modal-transition-settings: 0.6s cubic-bezier(0.55, 0, 0.1, 1);

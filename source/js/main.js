@@ -1,4 +1,5 @@
-import {polyfills} from "./utils/polyfills";
+import {polyfills} from './utils/polyfills';
+import test from './modules/test';
 
 // Utils
 // ---------------------------------
@@ -8,4 +9,4 @@ polyfills();
 // Modules
 // ----------------------------------
 
-console.log('Works!');
+test();
